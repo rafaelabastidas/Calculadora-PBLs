@@ -13,7 +13,6 @@ import seaborn as sns
 ########
 
 # Import Hopermas database: cut-off 12_24
-calculadora_pbls_code.py
 input_dir="https://github.com/rafaelabastidas/Calculadora-PBLs/main/"
 file_name =os.path.join(input_dir, "Hopermas_filtered.csv")
 data= pd.read_csv(file_name)
