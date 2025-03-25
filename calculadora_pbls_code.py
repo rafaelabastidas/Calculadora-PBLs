@@ -6,8 +6,7 @@ from scipy.stats import percentileofscore
 import streamlit as st
 import os
 import matplotlib.pyplot as plt
-from scipy.stats import percentileofscore
-
+import seaborn as sns
 
 ########
 #HOPERMAS DATA
@@ -41,11 +40,7 @@ data["orig_apprvd_useq_amnt_m"]=data["orig_apprvd_useq_amnt"]/1000000
 ################################
 # Interfaz
 ################################
-import pandas as pd
-from scipy.stats import percentileofscore
-import streamlit as st
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 # 👉 Asegúrate de cargar tu DataFrame `data` antes de este punto.
 # Por ejemplo: data = pd.read_csv("tus_datos.csv")
