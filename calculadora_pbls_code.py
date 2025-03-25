@@ -13,7 +13,8 @@ import seaborn as sns
 ########
 
 # Import Hopermas database: cut-off 12_24
-data= pd.read_csv("https://github.com/rafaelabastidas/Calculadora-PBLs/blob/467a65ef951405e39e11f75d56b85354973e725f/Hopermas_filtered.csv")
+url = "https://raw.githubusercontent.com/rafaelabastidas/Calculadora-PBLs/467a65ef951405e39e11f75d56b85354973e725f/Hopermas_filtered.csv"
+data = pd.read_csv(url)
 
 # Filter rows where modality_cd is either "PBP" or "DDP"
 data = data[data["lending_instrmnt_cd"].isin(["PBL"])].reset_index(drop=True)
