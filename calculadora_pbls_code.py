@@ -40,10 +40,6 @@ data["orig_apprvd_useq_amnt_m"]=data["orig_apprvd_useq_amnt"]/1000000
 # Interfaz
 ################################
 
-
-# 👉 Asegúrate de cargar tu DataFrame `data` antes de este punto.
-# Por ejemplo: data = pd.read_csv("tus_datos.csv")
-
 st.title("Calculadora de Percentiles para Programación de PBLs")
 
 # Filtro por país con opción 'Todos'
